@@ -1,3 +1,22 @@
-body {
+#content-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+}
 
+#content-list li {
+    margin-left: 20px;
+}
+
+#footer-content p {
+    border-top: 1px solid #000;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+#footer-content li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 12px;
 }

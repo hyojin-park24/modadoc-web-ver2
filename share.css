@@ -19,7 +19,25 @@ header h1 {
     top: 10px;
 }
 
-footer {
-    text-align: center;
-    margin: 20px 0;
+#content-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+}
+
+#content-list li {
+    margin-left: 20px;
+}
+
+#content-list a {
+    text-decoration: none;
+    color: #000;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#content-list a:hover {
+    color: white;
+    background-color: #2dbdff;
 }

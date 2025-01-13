@@ -1,0 +1,25 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #c6edff;
+}
+
+.button-activate a {
+    color: black;
+}
+.button-activate a:hover {
+    color: #ffeace;
+    background-color: #344a53;
+}
+
+.button-disable a {
+    color: lightgray;
+}
+
+.button-disable a:hover {
+    cursor: context-menu;
+}
+
+main a {
+    text-decoration: none;
+}

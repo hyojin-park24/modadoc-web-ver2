@@ -7,15 +7,15 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    margin: 10px 20px;
+    margin: 0.625rem 1.25rem;
 }
 
 #content-buttons li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 #content-buttons a {
     text-decoration: none;
     border-radius: 3px;
-    padding: 5px;
+    padding: 0.3rem;
 }

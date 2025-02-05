@@ -20,6 +20,32 @@ html {
     cursor: context-menu;
 }
 
-main a {
+.active-contents {
+    margin: 10rem auto;
+    display: flex;
+    align-items: center;
+    width: 82rem;
+}
+
+.next-btn {
     text-decoration: none;
+    font-size: 12rem;
+    color: dimgray;
+}
+
+.next-btn:hover {
+    color: gray;
+}
+
+.active-img {
+    width: 42rem;
+    height: 28rem;
+    margin: 1rem auto;
+    object-fit: cover;
+}
+
+.active-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
